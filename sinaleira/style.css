@@ -1,0 +1,36 @@
+.verde{
+    background-color: greenyellow;
+    font-weight: 700;
+    font-size: 16px;
+    width:100px;
+    height:100px;
+    text-align: center;
+    margin: auto;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.amarelo{
+    background-color: yellow;
+    font-weight: 700;
+    font-size: 16px;
+    width:100px;
+    height:100px;
+    text-align: center;
+    margin: auto;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.vermelho{
+    background-color: red;
+    font-weight: 700;
+    font-size: 16px;
+    width:100px;
+    height:100px;
+    text-align: center;
+    margin: auto;
+    line-height: normal;
+    font-weight: 400;
+}
+
