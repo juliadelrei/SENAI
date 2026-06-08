@@ -1,7 +1,14 @@
 body {background-color:rgb(248, 231, 255)}
 .site{color: aliceblue;
     background-color: blueviolet;}
-.nome{color:blueviolet}
-.idade{color:blueviolet}
+.nome{color:blueviolet;
+font-size:20px;}
+.idade{color:blueviolet;
+font-size: 20px;}
 .fim{background-color: blueviolet;
-color: aliceblue;}
+color: aliceblue;
+font-size: 18px;}
+.oii{font-size:20px;}
+.tenho{font-size:20px ;}
+.bnv{font-size: 20px;}
+.rpg{font-size: 20px;}

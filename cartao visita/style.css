@@ -1,0 +1,12 @@
+.senior {
+    color: rgb(242, 1, 250);
+}
+div{
+    background-color:rgb(222, 181, 255);
+}
+.cartao { 
+    width: 300px;
+    background-color: rgb(252, 227, 244);
+    border-radius: 20px;
+    padding: 25px;
+}
