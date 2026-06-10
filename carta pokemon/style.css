@@ -1,0 +1,30 @@
+.carta {
+    border-radius: 20px ;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    align-items: center;  
+    background-color: rgb(118, 224, 224);
+}
+   
+.texto{
+    margin: 20px ;
+    padding: 100px;
+    width: 50px;
+}
+.outro {
+    border-radius: 20px ;
+    width: 280px;
+    height: 190px;
+    padding: 10px;
+    align-items: center;  
+    background-color: rgb(209, 245, 245);
+}
+.squirtle{
+    padding: 80px;
+    font-size: larger;
+}
+
+.classe {
+    font-weight: bold;
+}

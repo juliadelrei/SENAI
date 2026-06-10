@@ -4,9 +4,9 @@
 div{
     background-color:rgb(222, 181, 255);
 }
-.cartao { 
+.cartao {
+    border-radius: 20px ;
     width: 300px;
-    background-color: rgb(252, 227, 244);
-    border-radius: 20px;
-    padding: 25px;
+    height: 250px;
+    padding: 10px;
 }
