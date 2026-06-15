@@ -1,0 +1,69 @@
+.fundoo{
+    display: flex;
+    justify-content: center;   
+    background-image: url(./assets/fundo.png); 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    height: 1500px;
+    justify-content: space-around;
+    height: 678px;
+    width: 550px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(132, 0, 255);
+    color: white;
+}
+body {
+    background-color: rgb(132, 0, 255);
+}
+
+.card1{
+    width: 150px;
+    height: 187.5px;
+    padding: 10px;
+ }
+.card2{
+    width: 150px;
+    height: 187.5px;
+    padding: 10px;
+    }
+.card3{
+    width: 150px;
+    height: 187.5px;
+    padding: 10px;  
+    }
+.card4{
+    width: 150px;
+    height: 187.5px;
+    padding: 10px;
+    }
+.card5{
+    width: 150px;       
+    height: 187.5px;
+    padding: 10px;
+    }
+.card6{ 
+    width: 150px;
+    height: 187.5px;
+    padding: 10px;
+    }       
+.card7{
+    width: 150px;
+    height: 187.5px;
+    padding: 10px;
+    }
+.card8{
+    width: 150px;
+    height: 187.5px;
+    padding: 10px;
+    }
+.card9{
+    width: 150px;
+    height: 187.5px;
+    padding: 10px;
+    }
