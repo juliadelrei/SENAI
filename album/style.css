@@ -10,9 +10,9 @@
     justify-content: space-around;
     height: 678px;
     width: 550px;
-    margin: 15px auto;
+    margin: 25px auto;
     flex-wrap: wrap;
-    padding:15px
+    padding:10px
 }
 h1 {
     text-align: center;
