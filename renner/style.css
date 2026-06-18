@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #ffffff;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  height: 580px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #767676; 
+  background-image: url(./assets/hero.png);
+  background-size: cover;
+
+}
+
+.hero h1 {
+  color: #434343; /* ⬅️ ALTERE */
+  font-size: 64px;
+}
+
+.cards {
+  padding: 80px 0px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: #ececec; /* ⬅️ ALTERE */
+}
+
+.card {
+  width: 250px;
+  padding: 22px;
+  background: #ffffff; /* ⬅️ ALTERE */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-img {
+  width: 206px;
+  height: 97px;
+  background-color: #d9d9d9; /* ⬅️ ALTERE */
+}
+
+footer {
+  padding: 30px 0px;
+  background-color: #ffffff; /* ⬅️ ALTERE */
+  text-align: center;
+  font-size: 12px;
+  color: #ff0000; /* ⬅️ ALTERE */
+}
+.card-img1 {
+  background-image: url(./assets/1.webp);
+  background-size: cover;
+    width: 206px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+.card-img2 {
+  background-image: url(./assets/2.webp);
+  background-size: cover;
+  width: 206px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+.card-img3 {
+  background-image: url(./assets/3.webp);
+  background-size: cover;
+  width: 206px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+.card-img4 {
+  background-image: url(./assets/4.webp);
+  background-size: cover;
+  width: 206px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+.card-img5 {
+  background-image: url(./assets/5.webp);
+  background-size: cover;
+  width: 206px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+.card-img6 {
+  background-image: url(./assets/6.webp);
+  background-size: cover;
+  width: 206px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+.card-img7 {
+  background-image: url(./assets/7.webp);
+  background-size: cover;
+  width: 206px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+.card-img8 {
+  background-image: url(./assets/8.webp);
+  background-size: cover;
+  width: 206px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+.card-img9 {
+  background-image: url(./assets/9.webp);
+  background-size: cover;
+  width: 206px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+.cards h1 {
+  color: #000000; /* ⬅️ ALTERE */
+  font-size: 18px;
+}
+button:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+button {
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+body {
+    background-color: rgb(236, 236, 236);
+}
+a {
+    font-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
