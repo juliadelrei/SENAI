@@ -1,0 +1,13 @@
+.btn {
+    padding: 20px;
+    text-align: center;
+    background: rgb(255, 193, 250);
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.is-active {
+    background-color: rgb(255, 193, 250);
+    margin-left: 350px;
+}
