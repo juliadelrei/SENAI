@@ -1,7 +1,7 @@
-let titulo = document.querySelector(`h1`)
-let resultado = document.querySelector (`p`)
-let btnMostrar = document.querySelector(`button`)
+let titulo= document.querySelector("h1");
+let btn= document.querySelector(".btnMostrar");
+let resultado= document.querySelector("p");
 
-btnMostrar.addEventListener("click", function(){
-    resultado.textContent = titulo.textContent
-})
+btn.addEventListener("click", function(){
+    resultado.textContent= titulo.textContent;
+});
