@@ -1402,410 +1402,681 @@ footer span {
 }
 
 
+/```css
 /* =========================
    RESPONSIVO
 ========================= */
 
+/* TABLETS E TELAS MÉDIAS */
+
 @media (max-width: 1000px) {
 
     .skills {
-
-        grid-template-columns:
-            repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-
 
     .personal-grid {
-
-        grid-template-columns:
-            repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-
-}
-
-
-@media (max-width: 768px) {
-
-    body::before {
-
-        font-size: 10px;
-
-        letter-spacing: 4px;
-    }
-
-
-    header {
-
-        margin-top: 23px;
-
-        padding:
-            14px 5%;
-    }
-
-
-    nav {
-
-        flex-direction: column;
-    }
-
-
-    .logo {
-
-        font-size: 32px;
-    }
-
-
-    nav ul {
-
-        width: 100%;
-
-        justify-content: center;
-
-        flex-wrap: wrap;
-    }
-
-
-    nav ul li a {
-
-        padding:
-            8px 11px;
-
-        font-size: 12px;
-    }
-
-
-    .hero {
-
-        width: 92%;
-
-        margin-top: 45px;
-
-        padding:
-            65px 22px 45px;
-    }
-
-
-    .hero h1 {
-
-        font-size: 56px;
-    }
-
-
-    section {
-
-        width: 92%;
-
-        margin:
-            65px auto;
-    }
-
-
-    .section-title h2 {
-
-        font-size: 34px;
-    }
-
-
-    .about {
-
-        padding:
-            30px 20px;
-    }
-
 
     .projects {
-
-        grid-template-columns:
-            1fr;
-    }
-
-
-    .personal-grid {
-
-        grid-template-columns:
-            1fr 1fr;
-    }
-
-
-    .languages,
-    .courses {
-
-        grid-template-columns:
-            1fr;
-    }
-
-
-    .contact {
-
-        padding:
-            50px 20px;
-    }
-
-
-    .contact h2 {
-
-        font-size: 37px;
-    }
-
-}
-
-
-@media (max-width: 480px) {
-
-    body::before {
-
-        content:
-            "✦ ♡ ✧ ★ ♡ ✦";
-
-        letter-spacing: 4px;
-    }
-
-
-    header {
-
-        padding:
-            12px 4%;
-    }
-
-
-    .logo {
-
-        font-size: 29px;
-    }
-
-
-    nav ul {
-
-        gap: 5px;
-    }
-
-
-    nav ul li a {
-
-        padding:
-            7px 9px;
-
-        font-size: 11px;
-    }
-
-
-    .hero {
-
-        width: 94%;
-
-        padding:
-            60px 17px 38px;
-
-        margin-top: 35px;
-
-        border-radius: 18px;
-    }
-
-
-    .hero::before {
-
-        font-size: 8px;
-
-        letter-spacing: 2px;
-
-        padding:
-            4px 9px;
-    }
-
-
-    .hero h1 {
-
-        font-size: 43px;
-    }
-
-
-    .hero h2 {
-
-        font-size: 18px;
-    }
-
-
-    .hero p {
-
-        font-size: 14px;
-    }
-
-
-    .button {
-
-        width: 100%;
-
-        margin:
-            6px 0;
-    }
-
-
-    section {
-
-        width: 94%;
-
-        margin:
-            55px auto;
-    }
-
-
-    .section-title {
-
-        margin-bottom: 28px;
-    }
-
-
-    .section-title h2 {
-
-        font-size: 29px;
-    }
-
-
-    .personal-grid {
-
-        grid-template-columns:
-            1fr;
-    }
-
-
-    .about {
-
-        padding:
-            25px 17px;
-    }
-
-
-    .about p {
-
-        font-size: 14px;
-    }
-
-
-    .objective {
-
-        flex-direction: column;
-
-        text-align: center;
-
-        padding:
-            25px 18px;
-    }
-
-
-    .timeline {
-
-        padding:
-            22px 17px;
-    }
-
-
-    .timeline-item {
-
-        gap: 15px;
-    }
-
-
-    .timeline-number {
-
-        min-width: 45px;
-
-        height: 45px;
-
-        font-size: 12px;
-    }
-
-
-    .timeline-content h3 {
-
-        font-size: 20px;
-    }
-
-
-    .skills {
-
-        grid-template-columns:
-            1fr;
-    }
-
-
-    .skill-card {
-
-        min-height: 0;
-    }
-
-
-    .card {
-
-        padding: 21px;
-
-        min-height: 0;
-    }
-
-
-    .card h3 {
-
-        font-size: 20px;
-    }
-
-
-    .card p {
-
-        font-size: 14px;
-    }
-
-
-    .contact h2 {
-
-        font-size: 31px;
-    }
-
-
-    footer {
-
-        margin-top: 65px;
-
-        font-size: 12px;
+        grid-template-columns: 1fr 1fr;
     }
 
 }
 
 
 /* =========================
-   IMPRESSÃO / PDF
+   CELULAR
 ========================= */
 
-@media print {
+@media (max-width: 768px) {
 
-    body {
-
-        background: white;
+    body::before {
+        font-size: 9px;
+        letter-spacing: 3px;
+        padding: 5px 0;
     }
 
 
-    body::before {
+    /* HEADER */
 
+    header {
+        margin-top: 22px;
+        padding: 12px 4%;
+        position: sticky;
+        top: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+
+    nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    nav ul li {
+        flex: 0 0 auto;
+    }
+
+    nav ul li a {
+        padding: 7px 10px;
+        font-size: 11px;
+        border-width: 2px;
+    }
+
+
+    /* SEÇÕES */
+
+    section {
+        width: 92%;
+        margin: 55px auto;
+    }
+
+    .section-title {
+        margin-bottom: 28px;
+    }
+
+    .section-title small {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        width: 92%;
+        margin: 40px auto 50px;
+        padding: 65px 20px 40px;
+        border-radius: 20px;
+    }
+
+    .hero::before {
+        max-width: 85%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 8px;
+        letter-spacing: 2px;
+        padding: 5px 10px;
+    }
+
+    .hero::after {
+        right: 15px;
+        bottom: 12px;
+        font-size: 25px;
+    }
+
+    .hero small {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .hero h1 {
+        font-size: 52px;
+        line-height: 1;
+        margin: 20px 0 14px;
+    }
+
+    .hero h2 {
+        font-size: 18px;
+        line-height: 1.35;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 14px;
+        line-height: 1.7;
+        margin: 15px auto;
+    }
+
+
+    /* TAGS */
+
+    .quick-info {
+        gap: 6px;
+        margin: 18px auto;
+    }
+
+    .quick-info span {
+        padding: 6px 9px;
+        font-size: 11px;
+    }
+
+
+    /* BOTÕES */
+
+    .buttons {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin: 6px 0;
+        padding: 12px 18px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    /* DADOS PESSOAIS */
+
+    .personal-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .info-box {
+        padding: 16px 13px;
+        min-width: 0;
+    }
+
+    .info-box span {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+
+    .info-box strong {
+        display: block;
+        font-size: 13px;
+        line-height: 1.4;
+        overflow-wrap: anywhere;
+    }
+
+
+    /* SOBRE */
+
+    .about {
+        padding: 25px 18px;
+        border-radius: 15px;
+    }
+
+    .about p {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 13px;
+    }
+
+
+    /* OBJETIVO */
+
+    .objective {
+        flex-direction: column;
+        text-align: center;
+        gap: 18px;
+        padding: 25px 18px;
+    }
+
+    .objective-icon {
+        min-width: 55px;
+        width: 55px;
+        height: 55px;
+        font-size: 23px;
+    }
+
+    .objective h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .objective p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* FORMAÇÃO */
+
+    .timeline {
+        padding: 23px 17px;
+        border-radius: 15px;
+    }
+
+    .timeline-item {
+        gap: 13px;
+        margin-bottom: 28px;
+    }
+
+    .timeline-number {
+        min-width: 42px;
+        width: 42px;
+        height: 42px;
+        font-size: 11px;
+        flex-shrink: 0;
+    }
+
+    .timeline-content {
+        min-width: 0;
+    }
+
+    .timeline-content small {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+
+    .timeline-content h3 {
+        font-size: 18px;
+        line-height: 1.35;
+        margin: 5px 0;
+    }
+
+    .timeline-content h4 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .timeline-content p {
+        font-size: 13px;
+    }
+
+
+    /* HABILIDADES */
+
+    .skills {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .skill-card {
+        min-height: 0;
+        padding: 18px 15px;
+    }
+
+    .skill-card span {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .skill-card h3 {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+
+    .skill-card p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+
+    /* IDIOMAS */
+
+    .languages {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .language {
+        padding: 18px;
+    }
+
+    .language h3 {
+        font-size: 17px;
+    }
+
+    .language p {
+        font-size: 13px;
+    }
+
+    .language > span {
+        font-size: 15px;
+    }
+
+
+    /* PROJETOS */
+
+    .projects-intro {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: -10px;
+        margin-bottom: 25px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .card {
+        min-height: 0;
+        padding: 21px 18px;
+        border-radius: 13px;
+    }
+
+    .card .number {
+        font-size: 11px;
+        margin-bottom: 9px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .project-link {
+        margin-top: 13px;
+        font-size: 14px;
+    }
+
+
+    /* CURSOS */
+
+    .courses {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .course {
+        padding: 18px;
+    }
+
+    .course > span {
+        font-size: 21px;
+    }
+
+    .course h3 {
+        font-size: 17px;
+    }
+
+    .course p {
+        font-size: 13px;
+    }
+
+
+    /* CONTATO */
+
+    .contact {
+        width: 92%;
+        padding: 45px 18px;
+        border-radius: 18px;
+    }
+
+    .contact small {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .contact h2 {
+        font-size: 35px;
+        margin: 10px 0 13px;
+    }
+
+    .contact p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .contact-buttons {
+        width: 100%;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        margin-top: 60px;
+        padding: 28px 15px;
+        font-size: 12px;
+    }
+
+    .footer-stars {
+        font-size: 11px;
+        letter-spacing: 4px;
+    }
+
+}
+
+
+/* =========================
+   CELULAR PEQUENO
+========================= */
+
+@media (max-width: 480px) {
+
+    body::before {
+        content: "✦ ♡ ✧ ★ ♡ ✦";
+        font-size: 9px;
+        letter-spacing: 3px;
+    }
+
+
+    /* HEADER */
+
+    header {
+        padding: 10px 3%;
+    }
+
+    nav {
+        gap: 9px;
+    }
+
+    .logo {
+        font-size: 29px;
+    }
+
+    nav ul {
+        gap: 4px;
+    }
+
+    nav ul li a {
+        padding: 6px 8px;
+        font-size: 10px;
+    }
+
+
+    /* SEÇÕES */
+
+    section {
+        width: 94%;
+        margin: 48px auto;
+    }
+
+    .section-title {
+        margin-bottom: 24px;
+    }
+
+    .section-title small {
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        width: 94%;
+        margin-top: 32px;
+        padding: 58px 16px 35px;
+        border-radius: 17px;
+    }
+
+    .hero::before {
+        top: 14px;
+        font-size: 7px;
+        letter-spacing: 1px;
+        padding: 4px 7px;
+    }
+
+    .hero h1 {
+        font-size: 43px;
+        margin-top: 19px;
+    }
+
+    .hero h2 {
+        font-size: 17px;
+    }
+
+    .hero p {
+        font-size: 13px;
+        line-height: 1.65;
+    }
+
+    .hero::after {
         display: none;
     }
 
 
-    header {
+    /* TAGS */
 
-        position: static;
-
-        box-shadow: none;
+    .quick-info span {
+        padding: 5px 8px;
+        font-size: 10px;
     }
 
 
-    .card:hover,
-    .skill-card:hover {
+    /* DADOS */
 
-        transform: none;
+    .personal-grid {
+        grid-template-columns: 1fr;
+        gap: 9px;
+    }
+
+    .info-box {
+        padding: 14px;
+    }
+
+    .info-box strong {
+        font-size: 13px;
     }
 
 
-    .button {
+    /* SOBRE */
 
-        box-shadow: none;
+    .about {
+        padding: 22px 16px;
+    }
+
+    .about p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+
+    /* OBJETIVO */
+
+    .objective {
+        padding: 22px 15px;
+    }
+
+    .objective h3 {
+        font-size: 17px;
+    }
+
+    .objective p {
+        font-size: 13px;
+    }
+
+
+    /* FORMAÇÃO */
+
+    .timeline {
+        padding: 20px 13px;
+    }
+
+    .timeline-item {
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .timeline-number {
+        min-width: 38px;
+        width: 38px;
+        height: 38px;
+        font-size: 10px;
+    }
+
+    .timeline-content h3 {
+        font-size: 17px;
+    }
+
+    .timeline-content h4 {
+        font-size: 13px;
+    }
+
+
+    /* HABILIDADES */
+
+    .skills {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card {
+        padding: 18px;
+    }
+
+
+    /* IDIOMAS */
+
+    .language {
+        padding: 16px;
+    }
+
+
+    /* PROJETOS */
+
+    .card {
+        padding: 19px 16px;
+    }
+
+    .card h3 {
+        font-size: 19px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .project-link {
+        font-size: 13px;
+    }
+
+
+    /* CONTATO */
+
+    .contact {
+        width: 94%;
+        padding: 40px 16px;
+    }
+
+    .contact h2 {
+        font-size: 31px;
+    }
+
+    .contact p {
+        font-size: 13px;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        margin-top: 55px;
+        padding: 25px 12px;
+        font-size: 11px;
     }
 
 }
